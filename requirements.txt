@@ -1,0 +1,12 @@
+langchain
+langchain_groq
+langchain_core
+langchain_community
+python-dotenv
+streamlit
+folium
+reportlab
+requests
+pydantic
+langgraph
+langgraph-cli[inmem]

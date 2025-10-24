@@ -1,0 +1,12 @@
+2025-10-21 14:01:42,535 - INFO - Initialize TravelPlanner instance
+2025-10-21 14:01:42,535 - INFO - City set successfully
+2025-10-21 14:01:42,535 - INFO - Interests also set successfully..
+2025-10-21 14:01:42,535 - INFO - Generating itinerary for New Delhi and for ['red fort', 'India gate', 'qutub minar']
+2025-10-21 14:01:44,745 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 14:01:44,781 - INFO - Itinerary generated successfully..
+2025-10-21 14:06:26,740 - INFO - Initialize TravelPlanner instance
+2025-10-21 14:06:26,740 - INFO - City set successfully
+2025-10-21 14:06:26,740 - INFO - Interests also set successfully..
+2025-10-21 14:06:26,740 - INFO - Generating itinerary for lucknow and for ['red fort', 'India gate', 'qutub minar']
+2025-10-21 14:06:28,479 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 14:06:28,499 - INFO - Itinerary generated successfully..

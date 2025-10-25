@@ -21,7 +21,10 @@ class TravelState(BaseModel):
     # Data fetched
     attractions: Optional[List[Dict[str, Any]]] = None
     weather_data: Optional[Dict[str, Any]] = None
-    route_plan: Optional[List[Dict[str, Any]]] = None
+    # Route plan structure returned by OSRM helper is a dict like
+    # { "ordered": [{"lat":..., "lon":...}, ...], "order_indices": [...] }
+    # Align type accordingly so Pydantic validation matches actual data.
+    route_plan: Optional[Dict[str, Any]] = None
 
     # Final outputs
     itinerary_text: Optional[str] = None

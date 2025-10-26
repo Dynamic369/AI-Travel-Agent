@@ -11,3 +11,4 @@ requests-cache
 pydantic
 langgraph
 langgraph-cli[inmem]
+streamlit-folium

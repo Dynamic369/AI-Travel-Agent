@@ -7,8 +7,8 @@ def attraction_node(state: TravelState) -> Dict[str, Any]:
         return {"error": "attraction: missing plan_outline or city"}
 
     try:
-        # fetch many POIs around the city
-        raw_places = fetch_attraction(state.city, radius_m=12000, limit=60)
+        # fetch many POIs around the city (smaller radius/limit for speed; fallbacks will broaden if needed)
+        raw_places = fetch_attraction(state.city, radius_m=8000, limit=20)
 
         if not raw_places:
             return {"error": f"attraction: no attractions found near {state.city}"}

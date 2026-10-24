@@ -4,7 +4,7 @@ from src.config.config import GROQ_API_KEY
 
 
 llm = ChatGroq(
-                model="llama-3.1-8b-instant",
+                model="openai/gpt-oss-120b",
                 api_key=GROQ_API_KEY,
                 temperature=0.7
                     

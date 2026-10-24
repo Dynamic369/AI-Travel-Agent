@@ -3,7 +3,7 @@ from typing import Dict, Any
 from model import TravelState
 from src.utils.groq_client import GroqClient
 
-groq = GroqClient(model='llama-3.1-8b-instant')
+groq = GroqClient(model='openai/gpt-oss-120b')
 
 planner_prompt_template = """ 
     Create a structured travel itinerary for the user.

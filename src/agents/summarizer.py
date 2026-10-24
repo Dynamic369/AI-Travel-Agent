@@ -3,7 +3,7 @@ from model import TravelState
 from typing import Dict, Any
 from src.utils.groq_client import GroqClient
 
-groq = GroqClient(model='llama-3.1-8b-instant')
+groq = GroqClient(model='openai/gpt-oss-120b')
 
 summarize_prompt_template = """ 
         You are a travel itinerary writer. Based on the following JSON plan:
